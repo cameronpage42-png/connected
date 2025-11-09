@@ -1,0 +1,25 @@
+{
+  "name": "nearby-friends-meetup",
+  "version": "1.0.0",
+  "description": "Mobile app to connect with nearby friends using cell tower proximity",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "server"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace=server",
+    "mobile": "npm run start --workspace=mobile",
+    "server": "npm run dev --workspace=server",
+    "install-all": "npm install && npm install --workspace=mobile && npm install --workspace=server"
+  },
+  "keywords": [
+    "mobile",
+    "friends",
+    "proximity",
+    "meetup",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT"
+}

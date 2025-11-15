@@ -270,15 +270,7 @@ class MainActivity : AppCompatActivity() {
                 .setTitle(R.string.equalizer)
                 .setItems(presets) { _, which ->
                     effects.enableEqualizer(true)
-                    when (which) {
-                        0 -> effects.setEqualizerPreset(0)
-                        1 -> effects.setEqualizerPreset(1)
-                        2 -> effects.setEqualizerPreset(2)
-                        3 -> effects.setEqualizerPreset(3)
-                        4 -> effects.setEqualizerPreset(4)
-                        5 -> effects.setEqualizerPreset(5)
-                        6 -> effects.setEqualizerPreset(6)
-                    }
+                    effects.setEqualizerPreset(which.toShort())
                     Toast.makeText(this, "Equalizer preset applied", Toast.LENGTH_SHORT).show()
                 }
                 .setNegativeButton("Off") { _, _ ->
@@ -298,12 +290,12 @@ class MainActivity : AppCompatActivity() {
                     when (which) {
                         0 -> {
                             effects.enableBassBoost(true)
-                            effects.setBassBoostStrength(800)
+                            effects.setBassBoostStrength(800.toShort())
                             Toast.makeText(this, "Bass Boost enabled", Toast.LENGTH_SHORT).show()
                         }
                         1 -> {
                             effects.enableVirtualizer(true)
-                            effects.setVirtualizerStrength(800)
+                            effects.setVirtualizerStrength(800.toShort())
                             Toast.makeText(this, "3D effect enabled", Toast.LENGTH_SHORT).show()
                         }
                         2 -> {

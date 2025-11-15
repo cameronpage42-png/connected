@@ -55,13 +55,13 @@ class AudioEffectsManager(private val audioSessionId: Int) {
         val presets = mutableListOf<String>()
         equalizer?.let { eq ->
             for (i in 0 until eq.numberOfPresets) {
-                presets.add(eq.getPresetName(i))
+                presets.add(eq.getPresetName(i.toShort()))
             }
         }
         return presets
     }
 
-    fun getNumberOfBands(): Short = equalizer?.numberOfBands ?: 0
+    fun getNumberOfBands(): Short = equalizer?.numberOfBands ?: 0.toShort()
 
     fun getBandLevelRange(): ShortArray {
         val eq = equalizer ?: return shortArrayOf(0, 0)

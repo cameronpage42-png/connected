@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Retro Dark Theme -->
+    <style name="Theme.RetroMusicPlayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/retro_purple</item>
+        <item name="colorPrimaryVariant">@color/retro_pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/retro_cyan</item>
+        <item name="colorSecondaryVariant">@color/retro_neon_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">@color/retro_darker</item>
+        <item name="android:navigationBarColor">@color/retro_dark_bg</item>
+
+        <item name="android:windowBackground">@color/retro_dark_bg</item>
+        <item name="colorSurface">@color/retro_dark_surface</item>
+        <item name="colorOnSurface">@color/retro_text_primary</item>
+
+        <item name="android:textColorPrimary">@color/retro_text_primary</item>
+        <item name="android:textColorSecondary">@color/retro_text_secondary</item>
+
+        <item name="colorError">@color/retro_pink</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+
+    <style name="RetroButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/retro_purple</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="RetroCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/retro_dark_surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+</resources>

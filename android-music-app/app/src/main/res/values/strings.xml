@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Retro Music Player</string>
+
+    <!-- Main UI -->
+    <string name="no_songs">No songs found</string>
+    <string name="loading">Loading songs…</string>
+    <string name="scan_music">Scan for Music</string>
+
+    <!-- Player controls -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+
+    <!-- Audio Effects -->
+    <string name="equalizer">Equalizer</string>
+    <string name="audio_effects">Audio Effects</string>
+    <string name="bass_boost">Bass Boost</string>
+    <string name="virtualizer">Virtualizer</string>
+    <string name="reverb">Reverb</string>
+    <string name="effects_title">Audio Effects</string>
+
+    <!-- Visualizers -->
+    <string name="visualizer">Visualizer</string>
+    <string name="waveform">Waveform</string>
+    <string name="spectrum">Spectrum</string>
+    <string name="circular">Circular</string>
+    <string name="bars">Bars</string>
+
+    <!-- Equalizer -->
+    <string name="eq_preset_normal">Normal</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_jazz">Jazz</string>
+    <string name="eq_preset_pop">Pop</string>
+    <string name="eq_preset_classical">Classical</string>
+    <string name="eq_preset_bass">Bass Boost</string>
+    <string name="eq_preset_treble">Treble Boost</string>
+    <string name="eq_preset_custom">Custom</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage">Storage permission is required to play music</string>
+    <string name="permission_audio">Audio permission is required for visualizer</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <!-- Menu -->
+    <string name="menu_effects">Effects</string>
+    <string name="menu_equalizer">Equalizer</string>
+    <string name="menu_visualizer">Visualizer</string>
+
+    <!-- Ad placeholder -->
+    <string name="ad_placeholder">Advertisement Space</string>
+</resources>

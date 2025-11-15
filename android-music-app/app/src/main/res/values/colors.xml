@@ -23,4 +23,7 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#1A0033</color>
 </resources>
